@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.ant-layout{
+  @apply bg-white
+}
+.ant-layout-header{
+  @apply bg-[#F3F4F8]
+}
+.custom-search .ant-input{
+  @apply leading-[19px] p-2
+}
+.custom-search .ant-btn-icon-only{
+  @apply w-[32px] h-[32px]
+}
